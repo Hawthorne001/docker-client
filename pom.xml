@@ -144,7 +144,7 @@
     <dependency>
       <groupId>com.github.jnr</groupId>
       <artifactId>jnr-unixsocket</artifactId>
-      <version>0.18</version>
+      <version>0.38.22</version>
     </dependency>
     <dependency>
       <groupId>commons-lang</groupId>
@@ -419,7 +419,7 @@
           </relocations>
           <shadedArtifactAttached>true</shadedArtifactAttached>
           <transformers>
-            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
           </transformers>
         </configuration>
         <executions>
